@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins';
+   color: #000;
+   background-color: coral;
+}
+
+#dvCentro {
+   width: 90%;
+   height: 290px;
+   margin-top: 190px;
+   margin-left: 13px;
+   background-color: #FFF;
+   padding: 7px;
+   box-shadow: 0 0 30px #333;
+   border-radius: 5px;
+}
+
+.botao {
+   cursor: pointer;
+   margin: 30px;
+   margin-left: 70px;
+   border: none;
+   font-weight: bold;
+   border-radius: 4px;
+   padding: 17px 17px;
+}
+
+.botao:hover, .botao2:hover {
+   transition: .5s;
+   box-shadow: 0 0 8px #000;
+   color: #fff;
+   background-color: #333;
+}
+
+.botao2 {
+   cursor: pointer;
+   margin-left: 40px;
+   border: none;
+   font-weight: bold;
+   border-radius: 4px;
+   padding: 17px 17px;
+}
+
+#img {
+   margin-left: 17px;
+   width: 60px;
+   height: 60px;
+   border-radius: 10%;
+}
+
+/* TÍTULO */
+#texto1 {
+   margin-top: -58px;
+   margin-left: 85px;
+   font-size: 15px;
+}
+
+#paragrafo1 {
+   margin-top: -10px;
+   margin-left: 85px;
+   opacity: .4;
+   font-size: 13px;
+   font-weight: bold;
+}
+
+#fundo{
+   margin-top: 30px;
+   margin-left: 70px;
+   width: 60%;
+   height: 80px;
+   border-radius: 4px;
+   padding: 5px 5px;
+   background-color: #f3f3f3;
+}
